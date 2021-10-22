@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ts": "ts-node"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/sumtsui/typescript-playground#readme",
   "devDependencies": {
     "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.3.1"
   }
 }
